@@ -1,0 +1,228 @@
+
+
+
+img{
+    height: 20px;
+    border-radius: 50%;
+}
+
+.logo{
+    text-align:start;
+    font-size: 32px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    margin: 2%;
+    padding: 0%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+.menu{
+    /* text-align: right; */
+    font-size: 12px;
+    /* text-align: center; */
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(19, 2, 4);
+    color: white;
+    padding-top: 10px;
+}
+
+.home{
+    color: black;
+    background-color: white; 
+    border-radius: 10%;  
+}
+
+.main{
+    margin: 0%;
+    background-image: url(./img/apple-img2.jpg);
+    height: 5cm;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    vertical-align:middle;
+}
+
+.heading{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 100px;
+}
+
+.btn1{
+    margin-left: 11%;
+    border-radius: 21%;
+    border-color: white;
+    padding: 9px;
+    font-size: 6px;
+    font-weight: bold;
+}
+
+.btn2{
+    border-radius: 21%;
+    background-color: black;
+    padding: 9px;
+    color: white;
+    font-size: 6px;
+    font-weight: bold;
+}
+
+.content{
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-inline: 1px;
+    column-gap: 4%;
+    margin: 0%;
+    padding-bottom: 130px;
+}
+
+.content_btn{
+    font-size: 10px;
+    color: white;
+    border-color:rgb(32, 179, 6);
+    background-color: rgb(32, 179, 6);
+    border-radius: 10px;
+}
+
+#content-heading{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#content-img{
+    padding-right: 3%;
+    size: 10px;
+}
+
+.service-section{
+    display: flex;
+    justify-content:space-around;
+    background-color: black;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.workteam{
+width: 350px;
+padding-left: 90px;
+}
+
+.service{
+padding-left: 80px;
+width: 350px;
+}
+.contact{
+padding-left: 55px;
+
+}
+
+.list{
+   color: rgb(125, 191, 26);
+   font-size: 1.4em;
+   width: 190px;
+}
+
+span{
+    color: white;
+    font-size: 10px;
+    text-decoration: underline;
+    
+}
+
+.service_readmore-btn{
+    background-color: rgb(32, 179, 6);
+    border-color: rgb(32, 179, 6);
+    border-radius: 5px;
+    font-size: 8px;
+}
+
+.textarea, .textbox{
+    margin-bottom: 4px;
+    background-color: black;
+    color: white;
+    
+}
+
+.textbox{
+    width: 228px;
+}
+
+.send-btn{
+    background-color: rgb(32, 179, 6);
+    color: white;
+    border-color: rgb(32, 179, 6);
+    margin-left: 150px;
+    font-size: 8px;
+}
+
+.clear-btn{
+    background-color: rgba(83, 82, 82, 0.916);
+    color: white;
+    border-color:rgba(83, 82, 82, 0.916) ;
+    font-size: 8px;
+}
+
+.footer{
+    margin-top: 0%;
+    background-color: rgb(171, 164, 164);
+    display: flex;
+    padding-bottom: 70px;
+}
+
+.company{
+    padding-left: 95px;
+    color: white;
+}
+
+.footer-service{
+padding-left: 40px;
+color: white;
+}
+
+.advice{
+padding-left: 40px;
+color: white;
+}
+
+.member{
+padding-left: 40px;
+color: white;
+}
+
+.about{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+}
+
+.l1, .about{
+    font-size: 8px;
+}
+
+.line{
+    padding-top: 0%;
+    margin-top: 0%;
+    width: 90px;
+    margin-bottom: 17px;
+}
+
+.email{
+    text-align: end;
+    background-color: rgb(32, 24, 24);
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    font-size: 10px;
+    color: rgb(36, 13, 13);
+}
